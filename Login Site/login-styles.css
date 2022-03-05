@@ -1,0 +1,144 @@
+@import url("https://use.typekit.net/ynz1wrb.css");
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100;200;300;400;500;600;700&display=swap');
+
+/*
+font-family: superior-title, serif;
+*/
+
+* {
+    box-sizing: border-box;
+    background-color: #e2e6ec;
+}
+
+.cta-p {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+    margin: 54px auto 20px auto;   
+}
+
+.cta-c {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.cta-c h1 {
+    font-family: sculpin, sans-serif;
+    font-weight: 100;
+    font-size: 50px;
+    line-height: 40%;
+    color: #478FFC;
+}
+
+.login {
+    background-color: white;
+    padding: 50px;
+    border-radius: 20px;
+    border-color: #9fa8b6;
+    border-style: solid;
+    border-width: 1px;
+    text-align: center;
+    box-shadow: 0 10px 80px #2530411e;
+}
+
+.login h2 {
+    font-family: sculpin, sans-serif;
+    font-size: 20px;
+    font-weight: 300;
+    color: #415066;
+    background-color: transparent;
+    margin-bottom: 20px;
+}
+
+.log {
+    border-radius: 10px;
+    border: solid 1px #9fa8b6;
+    height: 40px;
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 10px;
+    background-color: #e2e6ec;
+}
+
+.log:focus {
+    outline-color: #478FFC;
+}
+
+::placeholder {
+    font-family: 'Roboto Mono', monospace;
+    color: #727c8b;
+}
+
+.signin {
+    border: none;
+    padding: 15px 30px;
+    font-family: 'Roboto Mono', monospace;
+    font-weight: 300;
+    font-size: 15px;
+    border-radius: 70px;
+    color: white;
+    background-color: #478FFC;
+    margin: 0 0 40px 0;
+    transition: 0.3s ease 0s;
+}
+
+.signin:hover {
+    cursor: pointer;
+    background-color: #3b78d3;
+}
+
+.se {
+    border: none;
+    padding: 15px 30px;
+    border-radius: 70px;
+    font-size: 20px;
+    transition: 0.3s ease 0s;
+    margin: 0px 10px;
+}
+
+.se i {
+    background-color: transparent;
+    color: #253041;
+}
+
+.se:hover {
+    background-color: #ccd1d8;
+    cursor: pointer;
+}
+
+.external {
+    margin-bottom: 20px;
+}
+
+h3 {
+    background-color: transparent;
+    color: #253041;
+    font-family: sculpin, sans-serif;
+    font-weight: 300;
+    font-size: 14px;
+    margin: 20px 0 10px 0;
+}
+
+.regi {
+    border: solid 2px #478FFC;
+    padding: 12px 26px;
+    font-family: 'Roboto Mono', monospace;
+    font-weight: 400;
+    font-size: 12px;
+    border-radius: 70px;
+    color: #478FFC;
+    background-color: transparent;
+    margin: 0 0 40px 0;
+    transition: 0.3s ease 0s;
+}
+
+.regi:hover {
+    background-color: #478ffc2c;
+    cursor: pointer;
+}
